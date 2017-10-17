@@ -3,9 +3,9 @@ class Teams
   attr_accessor :name, :motto
   @@teams = []
 
-  def initialize(name, motto)
-    @name = name
-    @motto = motto
+  def initialize(args)
+    @name = args[:name]
+    @motto = args[:motto]
   end
 
   def self.all
