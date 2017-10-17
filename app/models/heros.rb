@@ -1,4 +1,4 @@
-class Heroes
+class SuperHero
 
   attr_accessor :name, :power, :bio
   @@heroes = []
